@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'cyber';
+    src: url("ARCADE.TTF") format("opentype");
+}
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: cyber;
+    height: 90vh;
+    color: #d1f7ff;
+    text
+    
+}
+
+.btn  { 
+    padding: 10px 60px ;
+    border-radius: 1%;
+    font-size: 1.7rem;
+    background-color: black;
+    border: 2px  solid #ff2a6d;
+    border-bottom: #ff2a6d solid 9px;
+    color: #d1f7ff;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255, 0.3);
+    transition: 0.3s;
+    font-family: cyber;
+    font-weight: 1000;
+    
+}
+.btn:hover {
+    transform: scale(0.95);
+    background-color: rgb(53, 7, 7);
+}
+.again {
+    margin-right: auto;
+    position: relative;
+    left: 30px;
+    top: 25px;
+}
+.inst {
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    right: 30px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 15%;
+   padding: 50px;
+   border-bottom: #ff2a6d solid 3px;
+
+}
+.guessNumber {
+    font-size: 5rem;
+    border: #ff2a6d solid 1px;
+    padding: 10px 30px;
+    border-bottom: #ff2a6d solid 9px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255, 0.3);
+    
+}
+h1 {
+    font-size: 5rem;
+    margin-bottom: 2%;
+    
+}
+.messg {
+    margin-top: 5%;
+    font-size: 3.2rem;
+}
+h1, h2, h3 {
+    text-shadow: 0 0 15px #05d9e8, 0 0 15px #05d9e8, 0 0 15px #005678, 0 0 15px #020235;
+    
+}
+
+
+.botton {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 90px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+}
+
+.input {
+    max-width: 120px;
+    height: 90px;
+    padding: 10px 0px 10px 15px;
+    background-color: black;
+    border: #ff2a6d solid 1px;
+    color: #05d9e8;
+    font-size: 4rem;
+    text-align: center;
+    border-bottom: #ff2a6d solid 9px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255, 0.3);
+    margin-bottom: 30px;
+    
+
+}
+input[type="number"]
+{
+    text-shadow: 0 0 15px #05d9e8, 0 0 15px #05d9e8, 0 0 15px #005678, 0 0 15px #020235;
+    color: #d1f7ff;
+    
+}
+.right {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    font-size: 2rem;
+
+}
+.scoretext{
+    padding: 40px;
+}
+
